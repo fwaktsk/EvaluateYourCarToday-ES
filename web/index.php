@@ -17,6 +17,9 @@
         <div class="shadow p-3 m-3 bg-light rounded">
             <h2>Evaluate Car Before Buy</h2>
             <p>Dekripsiin tentang webnya apa?</p>
+            <div class="d-flex justify-content-center">
+                <a href="./evaluate.php" class="btn btn-primary">Start Evaluate</a>
+            </div>
         </div>
     </div>
 
