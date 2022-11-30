@@ -32,10 +32,10 @@
                 </select>
                 <br>
                 <label class="form-label" for="doors">Number of Doors: </label>
-                <input class="form-control" type="number" name="doors" placeholder="Number of Doors">
+                <input class="form-control" type="number" name="doors" placeholder="Number of Doors" required>
                 <br>
                 <label class="form-label" for="people">Seat Capacity: </label>
-                <input class="form-control" type="number" name="people" placeholder="Seat Capacity">
+                <input class="form-control" type="number" name="people" placeholder="Seat Capacity" required>
                 <br>
                 <label class="form-label" for="luggage">Luggage Size:</label>
                 <select class="form-select" id="luggage" name="luggage">
