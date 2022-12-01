@@ -2,50 +2,27 @@
 <html lang="en">
 
 <head>
+    <?php require './navbar.php' ?>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <title>Home</title>
 </head>
 
-<body>
-    <form action="result.php" method="get">
-            <label for="price">Car price:</label>
-            <select id="price" name="price">
-                <option value="high">High</option>
-                <option value="med">Medium</option>
-                <option value="low">Low</option>
-            </select>
-        <br>
-            <label for="tech">Technology:</label>
-            <select id="tech" name="tech">
-                <option value="high">High</option>
-                <option value="med">Medium</option>
-                <option value="low">Low</option>
-            </select>
-        <br>
-            <label for="doors">Number of Doors: </label>
-            <input type="number" name="doors">
-        <br>
-            <label for="people">Seat Capacity: </label>
-            <input type="number" name="people">
-        <br>
-            <label for="luggage">Luggage Size:</label>
-            <select id="luggage" name="luggage">
-                <option value="big">Big</option>
-                <option value="med">Medium</option>
-                <option value="small">Small</option>
-            </select>
-        <br>
-            <label for="security">Security:</label>
-            <select id="security" name="security">
-                <option value="high">High</option>
-                <option value="med">Medium</option>
-                <option value="low">Low</option>
-            </select>
-        <br>
-            <input type="submit">
-    </form>
+<body style="background: url(../assets/homecar.jpg); background-repeat: repeat; background-size: 15%;">
+    <?= $navbar ?>
+    <div class="d-flex justify-content-center">
+        <div class="shadow p-3 m-3 bg-light rounded">
+            <h2>Evaluate Car Before Buy</h2>
+            <p>Dekripsiin tentang webnya apa?</p>
+            <div class="d-flex justify-content-center">
+                <a href="./evaluate.php" class="btn btn-primary">Start Evaluate</a>
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>
