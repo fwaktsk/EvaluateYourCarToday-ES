@@ -143,7 +143,7 @@ echo $priceValue . ' ' . $doorValue . ' ' .$techValue .' '. $peopleValue .' ' . 
 $totalAll = $priceValue + $doorValue + $techValue + $peopleValue + $luggageValue + $securityValue;
 
 if($totalAll < 0.21){
-    $result = 'unacc<br />The car has low quality and moreover the high price. You may as well look for another';
+    $result = 'unacc<br />The car has low quality and moreover the high price. You may as well look for another. <br /> <br /> ' . $priceString . '<br />' . $techString . '<br />' . $doorString . '<br />' . $peopleString . '<br />' . $luggageString . '<br />' . $securityString ;
 }else if($totalAll < 0.41){
     $result = 'acc';
 }else if($totalAll < 0.61){
@@ -151,14 +151,8 @@ if($totalAll < 0.21){
 }else if($totalAll < 0.81){
     $result = 'good';
 }else {
-    $result = "vgood<br />The car seems like a wonderful deal with it being affordable to you and nice quality. Go get it if you're wanting to!";
+    $result = "Very Good<br />The car seems like a wonderful deal with it being affordable to you and nice quality. Go get it if you're wanting to!<br /> <br /> " . $priceString . '<br />' . $techString . '<br />' . $doorString . '<br />' . $peopleString . '<br />' . $luggageString . '<br />' . $securityString;
 }
-
-// $techValue
-// $doorValue
-// $peopleValue
-// $luggageValue
-// $securityValue
 
 echo $result . ' ' . $totalAll;
 
