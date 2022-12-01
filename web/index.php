@@ -14,11 +14,16 @@
 <body style="background: url(../assets/homecar.jpg); background-repeat: repeat; background-size: 15%;">
     <?= $navbar ?>
     <div class="d-flex justify-content-center">
-        <div class="shadow p-3 m-3 bg-light rounded">
-            <h2>Evaluate Car Before Buy</h2>
-            <p>Dekripsiin tentang webnya apa?</p>
+        <div class="shadow p-3 m-3 bg-light rounded text-center">
+            <h2>Evaluate Your Future Car</h2>
+            <p>
+                Bingung seberapa worth it mobil yang akan anda beli?<br />
+                Khawatir mobil yang anda beli akan mengecewakan?<br />
+                Jangan khawatir. Konsultasikan mobilnya ke kami sebelum checkout!<br />
+                Kita evaluasi bersama mobil yang akan kalian beli, agar tidak merasa dirugikan.
+            </p>
             <div class="d-flex justify-content-center">
-                <a href="./evaluate.php" class="btn btn-primary">Start Evaluate</a>
+                <a href="./evaluate.php" class="btn btn-primary">Mulai Evaluasi</a>
             </div>
         </div>
     </div>

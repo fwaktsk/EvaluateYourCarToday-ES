@@ -11,10 +11,10 @@
     <title>Evaluate Car</title>
 </head>
 
-<body>
+<body style="background: url(../assets/homecar.jpg); background-repeat: repeat; background-size: 15%;">
     <?php echo $navbar ?>
     <div class="container">
-        <h1 class="text-center">Evaluate Your To Be Car</h1>
+        <h1 class="text-center">Evaluate Your Future Car</h1>
         <div class="d-flex justify-content-center">
             <form class="col-4 m-4 p-3 shadow rounded bg-light" action="result.php" method="get">
                 <label class="form-label" for="price">Car price:</label>
