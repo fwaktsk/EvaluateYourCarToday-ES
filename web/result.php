@@ -36,7 +36,7 @@
      
      $host = "localhost";
      $uname = "root";
-     $dbname = "UAS_expert";
+     $dbname = "car_eval";
      $password = "";
 
      $db_connect = new mysqli($host, $uname, $password, $dbname);
