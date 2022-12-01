@@ -1,0 +1,68 @@
+@font-face {
+    font-family: fruit;
+    src: url('../../assets/fonts/fruit_days/Fruit\ Days.ttf');
+}
+
+@font-face {
+    font-family: party;
+    src: url('../../assets/fonts/party_confetti/Party\ Confetti.ttf');
+}
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: party;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.white{
+    color:white;
+}
+
+.banner_background{
+    background-color: #303a3b;
+}
+
+.car_banner img{
+    height: 500px;
+    width: 600px;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.right_banner{
+    left:0;
+    right:0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0,0,0,0.5);
+    z-index: 10;
+}
+
+.judul{
+    font-size: 5em;
+}
+
+.left_banner h4{
+    font-size: 2em;
+}
+
+.desc{
+    width: 70%;
+}
+
+.image-team{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
