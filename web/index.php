@@ -35,25 +35,32 @@
         <div class="d-flex flex-column align-items-center">
             <h1>Our Team</h1>
             <div class="w-100 row">
-                <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center">
-                    <img src="../assets/homecar.jpg" class="image-team mb-5" alt="">
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                    <img src="../assets/foto.jpg" class="image-team mb-5" alt="">
                     <h3>Feliciano Surya Marcello</h3>
                     <h3>000000 43255</h3>
                 </div>
-                <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center">
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center">
                     <img src="../assets/vj.jpg" class="image-team mb-5" alt="">
                     <h3>Vincent Jonanthan</h3>
                     <h3>000000 47831</h3>
                 </div>
-                <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center">
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center">
                     <img src="../assets/greg.jpg" class="image-team mb-5" alt="">
                     <h3>Gregorius Lai</h3>
                     <h3>000000 45410</h3>
                 </div>
-                <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center">
+            </div>
+            <div class="w-100 row d-flex justify-content-center">
+            <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center">
                     <img src="../assets/sv.png" class="image-team mb-5" alt="">
                     <h3>Steven Vincent Hendrawan</h3>
                     <h3>000000 43664</h3>
+                </div>
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                    <img src="../assets/pasha.jpg" class="image-team mb-5" alt="">
+                    <h3>Farren Yazid Pasha Anugrah</h3>
+                    <h3>000000 44665</h3>
                 </div>
             </div>
         </div>
