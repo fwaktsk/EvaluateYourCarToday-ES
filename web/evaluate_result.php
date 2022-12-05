@@ -164,6 +164,6 @@ echo $result . ' ' . $totalAll;
 
 $_SESSION['result'] = $result;
 
-// header("location:evaluate.php?hasil=yes");
+header("location:evaluate.php?hasil=yes");
 
 ?>
