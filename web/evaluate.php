@@ -75,6 +75,7 @@
                         
                     </div>
                     <div class="modal-footer">
+                        <a href="index.php"><button class="btn btn-danger" type="button">Home</button></a>
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </div>
                 </form>
@@ -95,7 +96,7 @@
                             <h5 class="modal-title" id="staticBackdropLabel">RESULT</h5>
                         </div>
                         <div class="modal-body">
-                            <p>Hasil desc <?php echo $_SESSION['result'] ?></p>
+                            <p>Result : <?php echo $_SESSION['result'] ?></p>
                         </div>
                         <div class="modal-footer">
                             <button type="submit" class="btn btn-primary">Submit</button>
